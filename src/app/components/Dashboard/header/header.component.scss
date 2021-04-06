@@ -1,0 +1,68 @@
+@import '../../../../assets/theme/_variables';
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header h1 {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+
+  .socail {
+    width: 40%;
+
+    span {
+      margin: 0 1rem;
+    }
+  }
+
+  .profile-section {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
+
+    .profile {
+      width: 30%;
+
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  section {
+    // flex-direction: column;
+    left: 20%;
+    top: 3%;
+
+    header h1 {
+      font-size: 1rem;
+    }
+
+    .left-section {
+      .socail {
+        span {
+          margin: 0 .5rem;
+        }
+      }
+
+      .profile-section {
+        display: none;
+      }
+    }
+  }
+}

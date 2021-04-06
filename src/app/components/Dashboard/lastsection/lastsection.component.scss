@@ -1,0 +1,134 @@
+@import '../../../../assets/theme/_variables';
+
+.general-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  .left {
+    width: 52%;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+      width: 100;
+    }
+
+    // background: blue;
+    .body {
+      margin: 1rem 0;
+
+      .container {
+        width: 100%;
+        display: flex;
+        background: $secondary_color;
+        align-items: center;
+        padding: 1rem;
+        border-radius: 10px;
+        justify-content: space-between;
+
+        // padding:0 1rem ;
+        .image {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-right: 5rem;
+          width: 10%;
+
+          img {
+            width: 100%;
+            margin-right: .4rem;
+            border-radius: 50%;
+          }
+        }
+
+        .other {
+          // width: 40%;
+        }
+
+        .designation {
+          background: $primary_color;
+          padding: .5rem 1rem;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  .right {
+    width: 35%;
+    background: $secondary_color;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+    img {
+      width: 30%;
+      border-radius: 5px;
+
+    }
+
+    .socail {
+      span {
+        margin: 0 1rem;
+        border-radius: 5px;
+        border: 1px solid #111;
+        padding: 0.5rem;
+      }
+    }
+
+    .category {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:451px) {
+  .general-container {
+    flex-direction: column;
+
+    .left {
+      width: 94.5%;
+    }
+
+    .right {
+      width: 92%;
+    }
+
+    .none {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width:450px) {
+  .general-container {
+    flex-direction: column;
+
+    .left {
+      width: 92%;
+
+      .container {
+        .none {
+          display: none;
+        }
+      }
+    }
+
+    .right {
+      width: 87%;
+    }
+
+    .none {
+      display: none;
+    }
+  }
+}

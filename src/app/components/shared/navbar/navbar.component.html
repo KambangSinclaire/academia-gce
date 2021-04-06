@@ -1,0 +1,22 @@
+<section id="nav-section">
+  <div class="logo-container">
+    <img src="assets/images/logo.png" alt="Logo!" sizes="" srcset="" class="logo">
+  </div>
+  <nav>
+    <ul>
+      <li> <a [routerLink]="['/home' ]" routerLinkActive="active" class="orange-underline active">home</a></li>
+      <!-- 
+        example here
+        <li><a [routerLink]="[ '/about', routeParam]">about</a></li>
+        example ends here
+      -->
+      <li><a [routerLink]="['/user/register']">register</a></li>
+      <li><a [routerLink]="['/about']">about</a></li>
+
+      <!-- user/dashboard -->
+      <li><a [routerLink]="['/user/dashboard']">Account</a></li>
+
+      <li><a [routerLink]="['/contact']" class="orange-underline">contact</a></li>
+    </ul>
+  </nav>
+</section>

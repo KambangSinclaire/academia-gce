@@ -1,0 +1,40 @@
+<section id="contact-section">
+
+
+  <div class="img-container">
+    <img src="../../../../assets/images/undraw_contact_us_15o2.svg" alt="">
+  </div>
+
+
+  <div class="form-section-container">
+    <div class="auth-section">
+      <div class="auth-section-container">
+        <div class="login-section hide-form" id="login">
+          <form [formGroup]="clientContactForm" (ngSubmit)="submitRequest()">
+            <div class="form-header">
+              <h2>Contact Us via email</h2>
+            </div>
+
+            <mat-form-field>
+              <mat-label>Email</mat-label>
+              <input matInput type="email" color="primary" formControlName="email" required placeholder="Email">
+            </mat-form-field>
+
+            <mat-form-field>
+
+              <mat-label>Message</mat-label>
+              <textarea matInput cols="4" placeholder="Type message" formControlName="message" appearance="fill"
+                required>
+              </textarea>
+            </mat-form-field>
+
+            <div class="submit-login">
+              <input type="submit" color="primary" [disabled]="!clientContactForm.valid">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

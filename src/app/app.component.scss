@@ -1,0 +1,10 @@
+section#home {
+  max-width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.392), rgba(66, 230, 87, 0.415)),
+    url('../assets/images/undraw_exams_g4ow.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

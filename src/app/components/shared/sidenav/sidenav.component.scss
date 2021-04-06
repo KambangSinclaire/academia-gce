@@ -1,0 +1,50 @@
+@import '../../../../assets/theme/_variables';
+
+#sidenav-section {
+  width: 20vw;
+  position: relative;
+  top: 15%;
+
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: $secondary_color;
+    width: 100%;
+
+    .icon-container {
+      width: 20%;
+
+      a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 0.5em;
+
+        mat-icon {
+          font-size: 3rem;
+        }
+
+        span {
+          margin: 1.5rem 0rem 0rem 0.8rem;
+        }
+      }
+
+      .active {
+        color: $warning_color;
+      }
+
+    }
+
+    .icon-container:hover {
+      color: $danger_color;
+      transition: all 0.5s ease-in;
+    }
+  }
+
+}

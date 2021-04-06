@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "academia-8ee72": {
+      "hosting": {
+        "examer": [
+          "academia-8ee72"
+        ]
+      }
+    }
+  }
+}

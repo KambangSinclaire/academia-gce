@@ -1,0 +1,118 @@
+@use '../../../../assets/theme/auth_forms';
+@import '../../../../assets/theme/variables';
+
+
+section#authentication {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+
+section#authentication .auth-section {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .auth-section-container {
+    position: absolute;
+    top: 17%;
+    max-width: 60%;
+  }
+
+  .auth-section-container .login-section {
+    @extend formAuthType;
+    padding: 2rem 0rem;
+
+    form {
+      @extend authform;
+    }
+
+    mat-form-field {
+      @extend formFields;
+    }
+  }
+
+  .auth-section-container .signup-section {
+    @extend formAuthType;
+    padding: 1rem;
+
+    form {
+      @extend authform;
+      max-width: 100%;
+    }
+
+    mat-form-field {
+      @extend formFields;
+      max-width: 43%;
+      margin: 0.2rem 1rem;
+
+
+      input::placeholder {
+        color: $secondary_color !important;
+      }
+    }
+  }
+
+  .submit-login input,
+  .submit-signup input {
+    @extend submitBtns;
+  }
+
+  .other-auth-options {
+    @extend socialAuth_container;
+  }
+
+  .auth-section-container .signup-section.hide-form {
+    @extend hideElement;
+  }
+
+  .auth-section-container .signup-section .show-form {
+    @include showElement('flex');
+  }
+
+  .auth-section-container .login-section.hide-form {
+    @extend hideElement;
+  }
+
+  .auth-section-container .login-section .show-form {
+    @include showElement('flex');
+  }
+
+  .form-header {
+
+    h1,
+    h2,
+    p {
+      margin: 0.2rem;
+    }
+
+    p {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  ::ng-deep input::placeholder {
+    color: $secondary_color;
+  }
+
+  ::ng-deep.mat-focused.mat-form-field-label {
+    /*change color of label*/
+    color: $secondary_color !important;
+  }
+
+  ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: $secondary_color !important;
+  }
+
+  ::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: $secondary_color !important;
+    ;
+  }
+
+}

@@ -1,0 +1,91 @@
+<section id="authentication">
+
+  <div class="auth-section">
+    <div class="auth-section-container">
+
+      <div class="login-section hide-form" id="login">
+        <form [formGroup]="userForm" (ngSubmit)="emailAndPasswordLogin()">
+          <div class="form-header">
+            <!-- <h1>Login</h1> -->
+            <h2>Welcome back! <a [routerLink]="['/user/profile/',User.username]">{{ User.username }}</a></h2>
+            <p>Don't yet have an account?
+              <a [routerLink]="['/user/login']" (click)="toggleAuthenticationForms('signIn')">Create Account</a>
+            </p>
+            <p>Please fill in the following form to complete your registration process. </p>
+          </div>
+          <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input matInput type="email" color="primary" formControlName="email" required placeholder="Username">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput type="password" color="primary" formControlName="password" required placeholder="Password">
+          </mat-form-field>
+
+          <div class="submit-login">
+            <input type="submit" color="primary" [disabled]="!userForm.valid" placeholder="Next">
+          </div>
+
+        </form>
+      </div>
+
+      <div class="signup-section hide-form" id="signIn">
+        <form [formGroup]="userSignUpForm" (ngSubmit)="emailAndPasswordLogin()">
+          <div class="form-header">
+            <h2>Hello Dear, welcome</h2>
+            <p>Already have an account?
+              <a [routerLink]="['/user/login']" (click)="toggleAuthenticationForms('login')">Sign in</a>
+            </p>
+          </div>
+
+          <mat-form-field>
+            <mat-label>First name</mat-label>
+            <input matInput type="text" color="primary" formControlName="firstName" required placeholder="first name">
+          </mat-form-field>
+
+
+          <mat-form-field>
+            <mat-label>Last name</mat-label>
+            <input matInput type="text" color="primary" formControlName="lastName" required placeholder="last name">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Username</mat-label>
+            <input matInput type="text" color="primary" formControlName="username" required placeholder="Username">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Address</mat-label>
+            <input matInput type="text" color="primary" formControlName="address" required placeholder="Address">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput type="password" color="primary" formControlName="password" required placeholder=" Password">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Confirm password</mat-label>
+            <input matInput type="password" color="primary" formControlName="cpassword" required
+              placeholder="Confirm password">
+          </mat-form-field>
+
+          <div class="submit-signup">
+            <input type="submit" color="primary">
+          </div>
+
+        </form>
+      </div>
+
+      <div class="other-auth-options">
+        <span (click)="gmailLogin()">
+          <mat-icon>gmail</mat-icon><br>
+          <span>Authenticate with Gmail</span>
+        </span>
+      </div>
+
+    </div>
+  </div>
+
+</section>

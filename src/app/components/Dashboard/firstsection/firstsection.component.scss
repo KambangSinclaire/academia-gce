@@ -1,0 +1,174 @@
+@import '../../../../assets/theme/_variables';
+
+.general-container {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+  justify-content: space-between;
+
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+    .header {
+      display: flex;
+      justify-content: center;
+      background: $primary_color;
+      padding: 0.5rem 1rem;
+      color: $secondary_color;
+      border-radius: 10px;
+
+      .left {
+        h2 {
+          font-weight: 900;
+        }
+
+        button {
+          background: $warning_color;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          color: $secondary_color;
+          font-size: 1rem;
+          padding: 0.5rem 1.5rem;
+        }
+      }
+
+      .right {
+        width: 40%;
+
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+
+    }
+
+    .container-bottom {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 6rem 0 2rem 0;
+
+      h3 {
+        font-weight: 900;
+      }
+
+      .view {
+        cursor: pointer;
+        background: $primary_color;
+        border: none;
+        border-radius: 25px;
+        width: 130px;
+        height: 40px;
+        font-size: 1rem;
+        color: $secondary_color;
+      }
+    }
+  }
+
+  .right-container {
+    width: 40%;
+
+    // background-color: red;
+    .header {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      h3 {
+        font-weight: 800;
+      }
+
+      .togglebtn {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          width: 50px;
+          height: 30px;
+          color: $secondary_color;
+          background-color: $primary_color;
+          border-radius: 5px;
+          border: none;
+
+        }
+      }
+    }
+
+    .body {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .label {
+        display: flex;
+        width: 45%;
+        // height: 50px;
+        border-radius: 5px;
+        background-color: $transparent_secondary;
+        padding: 0 .5rem;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          background: inherit;
+          border: none;
+        }
+      }
+    }
+
+    .date-picker {
+      background: $secondary_color;
+      border-radius: 10px;
+      margin-top: .7rem;
+
+      .col {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+      }
+
+      .body {
+        display: flex;
+        flex-direction: column;
+
+        p.date {
+          border-radius: 50%;
+          background: $primary_color;
+          // padding: 0.3rem;
+          border: 5px solid $primary_color;
+          // width: 30px;
+        }
+
+        p.red {
+          border-radius: 50%;
+          background: $warning_color;
+          // padding: 0.3rem;
+          border: 5px solid $warning_color;
+          // width: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .general-container {
+    flex-direction: column;
+
+    .left-container {
+      width: 100%;
+    }
+
+    .right-container {
+      width: 100%;
+    }
+  }
+}
