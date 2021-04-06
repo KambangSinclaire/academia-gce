@@ -1,0 +1,80 @@
+// PayUnit Theme
+
+/**
+ * 1. Colors
+ */
+
+/* 1.0. Variations of white */
+$white: #FFFFFF;
+$whitesmoke: #EFEFEF;
+
+/* 1.1. Variations blue */
+$lightBlue: rgba(15, 125, 255, 0.22);
+$lighterBlue: rgba(15, 123, 255, 0.116);
+$thickBlue: #027AD0;
+$violet: #af1fea;
+
+/* 1.2. Variations of green */
+$lightGreen: rgba(5, 171, 159, 0.3);
+$lightGreen2: #E3FEFF;
+$thickGreen: #05AB9F;
+
+/* 1.3. Variations of orange */
+$lightOrange: #FFF2E3;
+$thickOrange: #F79623;
+
+/* 1.4. Variations of black */
+$lightDark: #323232;
+$thickDark: rgba(50, 50, 50, 1.0);
+$darkGrey: #7C7C7C;
+$dark: #323232;
+$black: #000;
+/* 1.5. Variations of red */
+$matRed: #D0021B;
+$pink_red:pink;
+
+/**
+ * 2. Font sizes
+ */
+$major_fontSize:2rem;
+$sub_major_fontSize:1.5rem;
+$minor_fontSize:1rem;
+$sub_minor_fontSize:0.5rem;
+
+/**
+ * 3. Box Shadow
+ */
+$global_box_shadow: 8px 8px 16px rgba($black, $alpha: 0.1);
+
+
+/* FILE NEEDS REFACTORING */
+/* color pallette from figma design*/
+
+$thick_orange: #F79623;
+$light_orange:#FEFFE3;
+$light_green: #E3FFE4;
+$white_color: #F8F8F8;
+$light_blue: #E7E9FF;
+$thick_voilet: #8400FF;
+
+
+$success_bg: #B6FCFF;
+$pending_bg: rgba(15, 125, 255, 0.22);
+
+$failed_bg: rgba(255, 161, 173, 0.22);
+$total_bg:rgba(172, 172, 172, 0.22);
+
+$success_text:#05AB9F;
+$pending_text: #027AD0;
+$failed_text:#D0021B;
+
+$regular_dark_fonts: #323232;
+
+$primary_teal:#05AB9F;
+
+$user_input_redius:10px;
+
+$section_padding:35px;
+
+$section_title: 1.3rem;
+;
