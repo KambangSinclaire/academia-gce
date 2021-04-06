@@ -1,0 +1,111 @@
+{
+  "configVersion": 1,
+  "timestamp": 1617745567068,
+  "index": "https://kambangsinclaire.github.io/academia-gce/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://kambangsinclaire.github.io/academia-gce/4.cfb64e0f9829d8c786ac.js",
+        "https://kambangsinclaire.github.io/academia-gce/favicon.ico",
+        "https://kambangsinclaire.github.io/academia-gce/index.html",
+        "https://kambangsinclaire.github.io/academia-gce/main.16b665babeaf15cd4abb.js",
+        "https://kambangsinclaire.github.io/academia-gce/manifest.webmanifest",
+        "https://kambangsinclaire.github.io/academia-gce/polyfills.8c151b8375e767ff858f.js",
+        "https://kambangsinclaire.github.io/academia-gce/runtime.39be6aefa14edaf2d028.js",
+        "https://kambangsinclaire.github.io/academia-gce/styles.6097fb83d66a9d36682e.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://kambangsinclaire.github.io/academia-gce/assets/fontawesome/all.min.js",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-128x128.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-144x144.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-152x152.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-192x192.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-384x384.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-512x512.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-72x72.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-96x96.png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images (1) copy.jpeg",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images (1).jpeg",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images (2).jpeg",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images (3).jpeg",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images (3).png",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images/undraw_contact_us_15o2.svg",
+        "https://kambangsinclaire.github.io/academia-gce/assets/images/undraw_exams_g4ow.svg",
+        "https://kambangsinclaire.github.io/academia-gce/assets/theme/_animations.scss",
+        "https://kambangsinclaire.github.io/academia-gce/assets/theme/_auth_forms.scss",
+        "https://kambangsinclaire.github.io/academia-gce/assets/theme/_borrowed_styles.scss",
+        "https://kambangsinclaire.github.io/academia-gce/assets/theme/_utils.scss",
+        "https://kambangsinclaire.github.io/academia-gce/assets/theme/_variables.scss",
+        "https://kambangsinclaire.github.io/academia-gce/undraw_exams_g4ow.3eecbeac84c83e16f9cb.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://kambangsinclaire.github.io/academia-gce/4.cfb64e0f9829d8c786ac.js": "4331f0ad03c4b89739ec50616a8fb662c39f177e",
+    "https://kambangsinclaire.github.io/academia-gce/assets/fontawesome/all.min.js": "b56375acc5e062f79280440459d0d7b0f10a290b",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://kambangsinclaire.github.io/academia-gce/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images (1) copy.jpeg": "5801b90b973fdf593e46d08d05d04c8dff1d4fbc",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images (1).jpeg": "5801b90b973fdf593e46d08d05d04c8dff1d4fbc",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images (2).jpeg": "1de0ea9e3f892dac42727bbb3ffadbacd1feb744",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images (3).jpeg": "9c8b69f6b8e5c3198f610498154e58e0f9868fee",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images (3).png": "84a468cb820d769bcea2c2a282c9008e1c044b70",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images/undraw_contact_us_15o2.svg": "e4a700fea0734fc42567aeeeb77ed5e8f8527250",
+    "https://kambangsinclaire.github.io/academia-gce/assets/images/undraw_exams_g4ow.svg": "7d47d694514d12cd120cf6006a874f0337dcbf50",
+    "https://kambangsinclaire.github.io/academia-gce/assets/theme/_animations.scss": "b978bb956d4545c806b16a3eb60c66614036e211",
+    "https://kambangsinclaire.github.io/academia-gce/assets/theme/_auth_forms.scss": "25daf3d1a4297e4f8864bbb9a5f8c798e0357918",
+    "https://kambangsinclaire.github.io/academia-gce/assets/theme/_borrowed_styles.scss": "32e6d8ce39e537e2fb59f4c895fe274980685ac1",
+    "https://kambangsinclaire.github.io/academia-gce/assets/theme/_utils.scss": "6a02cd44ff68bfe1a759cb8f292ce413a2b3e398",
+    "https://kambangsinclaire.github.io/academia-gce/assets/theme/_variables.scss": "2ef8c7f3494c59a9b7546e6d950779040b058df6",
+    "https://kambangsinclaire.github.io/academia-gce/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://kambangsinclaire.github.io/academia-gce/index.html": "3ec19c012a36943f18eaaee4beef969521aecc85",
+    "https://kambangsinclaire.github.io/academia-gce/main.16b665babeaf15cd4abb.js": "facf57c47d1188e148392f2c3a6b8714968ac0f5",
+    "https://kambangsinclaire.github.io/academia-gce/manifest.webmanifest": "d9b746bb66d7dc582b0ab09456c3030af9257e42",
+    "https://kambangsinclaire.github.io/academia-gce/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://kambangsinclaire.github.io/academia-gce/runtime.39be6aefa14edaf2d028.js": "ee264e2b559330d6f4459322347e07dfc7af31ac",
+    "https://kambangsinclaire.github.io/academia-gce/styles.6097fb83d66a9d36682e.css": "5b2b0798d739561e95aebab9c19faccad23d76a7",
+    "https://kambangsinclaire.github.io/academia-gce/undraw_exams_g4ow.3eecbeac84c83e16f9cb.svg": "7d47d694514d12cd120cf6006a874f0337dcbf50"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

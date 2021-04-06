@@ -1,0 +1,42 @@
+@import "./variables";
+
+set_container {
+  max-width: 96%;
+  position: relative;
+  left: 1rem;
+  background-color: $secondary_color;
+  border-radius: 10px;
+  height: 65vh;
+  padding: 1.5rem;
+}
+
+
+@mixin status_button($bgColor, $color) {
+  padding: 0.2rem 1rem;
+  border-radius: 1.1rem;
+  border: none;
+  text-align: center;
+  width: 6rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: $bgColor;
+  color: $color;
+}
+
+.site-major-btns {
+  padding: 0.6rem 2rem;
+  background-color: orange;
+  border: none;
+  border-radius: 80px;
+  outline: none;
+  color: $secondary_color;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  transition: all 3s ease-in-out;
+  cursor: pointer;
+
+}
