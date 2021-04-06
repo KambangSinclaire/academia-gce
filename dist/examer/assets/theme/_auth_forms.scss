@@ -1,0 +1,74 @@
+@import './variables';
+
+formAuthType {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $primary_color;
+  background-color: $secondary_color;
+  border-radius: 10px;
+  padding: 3rem 1rem;
+  box-shadow: 1px 1px 3px black;
+}
+
+authform {
+  width: inherit;
+  text-align: center;
+}
+
+formFields {
+  width: 80%;
+  border: 1px solid green;
+  padding: 0rem 0.3rem;
+  border-radius: 5px;
+  margin: 0.8rem;
+}
+
+submitBtns {
+  border-radius: $btn_border_radius;
+  background-color: $primary_color;
+  color: $secondary_color;
+  padding: 0.456rem 1.5rem;
+  font-size: $btn_font_size;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.8rem
+}
+
+submitBtns:hover {
+  background-color: $secondary_color;
+  color: $primary_color;
+  transition: all 1s ease-in;
+}
+
+// submitBtns
+
+socialAuth_container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  position: relative;
+  top: 2rem;
+
+}
+
+socialAuth_container span {
+  cursor: pointer;
+  color: $secondary_color;
+
+  mat-icon {
+    font-size: 2.2rem;
+  }
+}
+
+socialAuth_container span:hover {
+  transition: all 1s ease;
+
+  mat-icon {
+    font-size: 2.3rem;
+  }
+
+}
